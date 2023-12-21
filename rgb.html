@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Background Color with CSS</title>
+    <style>
+body {
+    margin: 0;
+    height: 100vh;
+    animation: backgroundChange 15s infinite alternate;
+}
+
+@keyframes backgroundChange {
+    0% { background-color: rgb(255, 0, 0); } /* Red */
+    25% { background-color: rgb(0, 255, 0); } /* Green */
+    50% { background-color: rgb(0, 0, 255); } /* Blue */
+    75% { background-color: rgb(255, 255, 0); } /* Yellow */
+    100% { background-color: rgb(255, 0, 255); } /* Magenta */
+}      
+    </style>
+</head>
+<body>
+</body>
+</html>
